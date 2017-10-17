@@ -1,5 +1,5 @@
 app.factory('NotificacoesService', ['$http','$cordovaLocalNotification', function ($http,$cordovaLocalNotification,$window) {
-	var urlBase = 'http://singep.esy.es/api/notificacao/';
+	var urlBase = 'http://singep.tecnologia.ws/api/notificacao/';
 	var NotificacoesService = {};
 
 	NotificacoesService.agendarVerificacao = function(_token,window){

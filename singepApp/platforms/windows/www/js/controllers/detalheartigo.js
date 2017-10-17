@@ -43,7 +43,7 @@ app.controller('ArtigosDetalheCtrl', function($scope,$state,$stateParams,Artigos
 	}
 
 	$scope.getArtigoPdf = function(_artigoId){
-		window.open('http://singep.esy.es/api/download/'+_artigoId+'.pdf','_system');
+		window.open('http://singep.tecnologia.ws/api/download/'+_artigoId+'.pdf','_system');
 	}
 
 	$scope.setAgendar = function(_artigoId){

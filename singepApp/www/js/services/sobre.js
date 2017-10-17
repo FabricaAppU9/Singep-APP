@@ -1,5 +1,5 @@
 app.factory('SobreService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/sobre/';
+	var urlBase = 'http://singep.tecnologia.ws/api/sobre/';
 	var SobreService = {};
 
 	SobreService.getAll= function(_token){

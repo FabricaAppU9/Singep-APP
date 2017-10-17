@@ -1,5 +1,5 @@
 app.factory('PalestrantesService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/palestrante/';
+	var urlBase = 'http://singep.tecnologia.ws/api/palestrante/';
 	var PalestrantesService = {};
 
 

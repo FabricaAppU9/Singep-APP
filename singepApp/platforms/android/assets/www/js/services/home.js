@@ -1,5 +1,5 @@
 app.factory('HomeService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/programacao/';
+	var urlBase = 'http://singep.tecnologia.ws/api/programacao/';
 	var HomeService = {};
 
 	HomeService.getPrimeiroDia= function(_token){

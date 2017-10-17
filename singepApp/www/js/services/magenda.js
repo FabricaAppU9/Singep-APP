@@ -1,5 +1,5 @@
 app.factory('AgendaService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/agenda/';
+	var urlBase = 'http://singep.tecnologia.ws/api/agenda/';
 	var AgendaService = {};
 
 	AgendaService.getAll= function(_token){

@@ -1,5 +1,5 @@
 app.factory('LoginService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/api/';
+	var urlBase = 'http://singep.tecnologia.ws/api/api/';
 	var LoginService = {};
     LoginService.efetuarLogin = function (loginData,$scope) {
     var docFormat = "";

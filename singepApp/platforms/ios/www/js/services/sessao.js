@@ -1,5 +1,5 @@
 app.factory('SessaoService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/sessao/';
+	var urlBase = 'http://singep.tecnologia.ws/api/sessao/';
 	var SessaoService = {};
 
 

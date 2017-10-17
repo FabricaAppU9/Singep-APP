@@ -1,5 +1,5 @@
 app.factory('ApoioService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/';
+	var urlBase = 'http://singep.tecnologia.ws/api/';
 	var ApoioService = {};
 
 	ApoioService.area = [];

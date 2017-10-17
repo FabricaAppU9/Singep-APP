@@ -1,5 +1,5 @@
 app.factory('AutoresService', ['$http', function ($http) {
-	var urlBase = 'http://singep.esy.es/api/';
+	var urlBase = 'http://singep.tecnologia.ws/api/';
 	var AutoresService = {};
     AutoresService.buscarTodos = function (_token) {
     var req = {
